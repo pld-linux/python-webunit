@@ -1,6 +1,6 @@
 
 %include	/usr/lib/rpm/macros.python
-%define 	module webunit
+%define 	module	webunit
 
 Summary:	Website unit/regression testing tool
 Summary(pl):	Narzêdzie do testowania modu³ów sieci Web
