@@ -2,7 +2,7 @@
 %define 	module	webunit
 
 Summary:	Website unit/regression testing tool
-Summary(pl):	NarzÍdzie do testowania modu≥Ûw sieci Web
+Summary(pl.UTF-8):   Narzƒôdzie do testowania modu≈Ç√≥w sieci Web
 Name:		python-%{module}
 Version:	1.3.8
 Release:	1
@@ -33,25 +33,25 @@ Features in a nutshell:
 6. Ability to register error page content across multiple tests
 7. Uses python's standard unittest module as the underlying framework
 
-%description -l pl
-webunit uøywany jest do testowania stron WWW przy pomocy kodu
-symuluj±cego dzia≥anie przegl±darki internetowej.
+%description -l pl.UTF-8
+webunit u≈ºywany jest do testowania stron WWW przy pomocy kodu
+symulujƒÖcego dzia≈Çanie przeglƒÖdarki internetowej.
 
 Cechy webunit:
 
-1. Pobieranie stron WWW symuluj±ce dzia≥anie przegl±darki
-   internetowej, pobieranie obrazkÛw i styli, pod±øanie za
+1. Pobieranie stron WWW symulujƒÖce dzia≈Çanie przeglƒÖdarki
+   internetowej, pobieranie obrazk√≥w i styli, podƒÖ≈ºanie za
    przekierowaniami.
-2. Automatyczna obs≥uga ciasteczek (cookies).
-3. Obs≥uga protoko≥Ûw HTTP, HTTPS, metod GET, POST, uwierzytelniania,
-   kontrola oczekiwanych kodÛw statusu.
+2. Automatyczna obs≈Çuga ciasteczek (cookies).
+3. Obs≈Çuga protoko≈Ç√≥w HTTP, HTTPS, metod GET, POST, uwierzytelniania,
+   kontrola oczekiwanych kod√≥w statusu.
 4. Parsowanie struktury DOM stron w celu pobrania i analizy strony,
-   takøe w celu ≥atwego odsy≥ania formularzy.
-5. Dwutorowe pobieranie strony koÒczone wysy≥k± formularza wraz ze
-   sprawdzaniem b≥ÍdÛw.
-6. Moøliwo∂Ê okre∂lenia zawarto∂ci strony z b≥Ídem przy przechodzeniu
+   tak≈ºe w celu ≈Çatwego odsy≈Çania formularzy.
+5. Dwutorowe pobieranie strony ko≈Ñczone wysy≈ÇkƒÖ formularza wraz ze
+   sprawdzaniem b≈Çƒôd√≥w.
+6. Mo≈ºliwo≈õƒá okre≈õlenia zawarto≈õci strony z b≈Çƒôdem przy przechodzeniu
    przez kolejne testy.
-7. Uøycie standardowego modu≥u pythona unittest jako zasadniczego
+7. U≈ºycie standardowego modu≈Çu pythona unittest jako zasadniczego
    szkieletu testu.
 
 %prep
