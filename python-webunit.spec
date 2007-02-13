@@ -2,7 +2,7 @@
 %define 	module	webunit
 
 Summary:	Website unit/regression testing tool
-Summary(pl.UTF-8):   Narzędzie do testowania modułów sieci Web
+Summary(pl.UTF-8):	Narzędzie do testowania modułów sieci Web
 Name:		python-%{module}
 Version:	1.3.8
 Release:	1
