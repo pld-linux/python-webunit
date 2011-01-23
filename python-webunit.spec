@@ -12,6 +12,8 @@ Source0:	http://www.mechanicalcat.net/tech/webunit/%{module}-%{version}.tar.gz
 # Source0-md5:	97b9e6b5149dadce48b86adbf2db3b0a
 URL:		http://www.mechanicalcat.net/tech/webunit/
 BuildRequires:	python-devel >= 1:2.3
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 Requires:	python >= 2.3
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
